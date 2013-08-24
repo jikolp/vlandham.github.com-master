@@ -1,0 +1,194 @@
+
+body {
+  background-color: #F0E1BD;
+}
+
+a {
+  text-decoration:none;
+  color: #333333;
+  font-weight:bold;
+}
+
+a:visited {
+  color: #333333;
+}
+
+svg {
+  /*background: #eee;*/
+ /* width: 960px;*/
+ /* height: 500px;*/
+}
+
+
+
+header {
+  width: 900px;
+  margin: auto;
+  text-align:center;
+}
+
+header h1 {
+  font-family: 'Tienne', serif;
+  font-weight: 400;
+  text-transform:uppercase;
+}
+
+footer {
+  padding-top: 20px;
+  margin: auto;
+  width: 900px;
+  text-align:center;
+}
+
+footer p {
+  font-family: 'Tienne', serif;
+  font-weight: 400;
+  text-transform:uppercase;
+}
+
+#main {
+  width: 900px;
+  margin: auto;
+}
+
+#vis {
+  text-align:center;
+}
+
+#keys {
+  text-align:center;
+  margin-top: 20px;
+  height: 170px;
+  width:100%;
+}
+
+.key {
+  display:inline-block;
+  text-align:center;
+}
+
+.state {
+  text-align:center;
+  display:inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.title {
+  font-family: 'Tienne', serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  font-size: 2.2em;
+}
+
+.states {
+  stroke: #333;
+  stroke-width: 2px;
+}
+
+.states path {
+  stroke: #333;
+  stroke-width: 1.2px;
+}
+
+.agr-0 {
+  fill:#F0E1BD;
+}
+
+.agr-20 {
+  fill:#E8B570;
+}
+
+.agr-35 {
+  fill:#D5914B;
+}
+
+.agr-60 {
+  fill:#BC6325;
+}
+
+.man-0 {
+  fill:#F0E1BD;
+}
+
+.man-10 {
+  fill:#E8B16A;
+}
+
+.man-20 {
+  fill:#DC934A;
+}
+
+.man-40 {
+  fill:#B55A1F;
+}
+
+.min-0 {
+  fill:#F0E1BD;
+}
+
+.min-2 {
+  fill:#E8B373;
+}
+
+.min-5 {
+  fill:#DC9756;
+}
+
+.min-10 {
+  fill:#B95E27;
+}
+
+.tra-0 {
+  fill:#F0E1BD;
+}
+
+.tra-10 {
+  fill:#E3AB65;
+}
+
+.tra-16 {
+  fill:#DF954C;
+}
+
+.dom-0 {
+  fill:#F0E1BD;
+}
+
+.dom-15 {
+  fill:#E1AF67;
+}
+
+.dom-20 {
+  fill:#DE9B58;
+}
+
+.pro-0 {
+  fill:#F0E1BD;
+}
+
+.pro-3 {
+  fill:#E6B26E;
+}
+
+.pro-5 {
+  fill:#DB944F;
+}
+
+.keys {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.key-rect {
+  float:left;
+  stroke:#333;
+  stroke-width: 2px;
+}
+
+.key-text {
+  font-family: 'Tienne', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}

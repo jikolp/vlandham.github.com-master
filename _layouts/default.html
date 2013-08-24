@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>{{ page.title }} - Jim Vallandingham</title>
+    <link href="http://feeds.feedburner.com/jim-vallandingham" rel="alternate" title="Jim Vallandingham" type="application/atom+xml" /> 
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print"/>
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"/><![endif]-->
+
+    <link rel="stylesheet" href="/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection"/>
+		
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection"/>
+    {% include styles.html %}
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'/>
+
+    <script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/jquery.instagram.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17355070-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+     </script>
+
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id='header'>
+        <h1><a href="/">Jim Vallandingham</a></h1>
+      </div>
+      <div id='menu'>
+        <ul>
+          <li><a href='/'>Posts</a></li>
+          <li><a href='/vis'>Visualizations</a></li>
+          <li><a href='/projects.html'>Projects</a></li>
+          <li><a href='/about.html'>About</a></li>
+        </ul>
+      </div>
+      <div id='content'>
+        {{ content }}
+        <div class='clearfix'></div>
+      </div>
+      <div id='footer'>
+        <p>Jim Vallandingham<br/>
+          <a href="mailto:&#118;&#108;&#097;&#110;&#100;&#104;&#097;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#118;&#108;&#097;&#110;&#100;&#104;&#097;&#109;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a><br/>
+          <a href="http://twitter.com/vlandham"><img src="http://vallandingham.me/images/twitter-16.png" style="vertical-align:middle;border:0;background-color:#39a9e0;" /></a>&nbsp;<a href="http://twitter.com/#!/vlandham">@vlandham</a><br/>
+          <a href="https://github.com/vlandham"><img src="http://vallandingham.me/images/github-16.png" style="vertical-align:middle;border:0;background-color:#4183C4;" /></a>&nbsp;<a href="https://github.com/vlandham">vlandham</a><br/>
+          <a href="http://feeds.feedburner.com/jim-vallandingham" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/jim-vallandingham" rel="alternate" type="application/rss+xml">subscribe</a>
+        </p>
+        <!-- http://www.wbwip.com/wbw/emailencoder.html -->
+        <!--http://simpleicons.org/-->
+      </div>
+    </div>
+  </body>
+</html>
+
